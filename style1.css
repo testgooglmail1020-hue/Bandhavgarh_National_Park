@@ -1,0 +1,75 @@
+/* style.css - Bandhavgarh National Park website */
+/* External CSS - linked in every page with the <link> tag */
+
+/* ----- Whole page ----- */
+body {
+    background-color: #eaf2e0;
+    font-family: Arial, sans-serif;
+}
+
+/* ----- Headings ----- */
+h2 {
+    color: #2f5d0a;
+}
+h4 {
+    color: #2f5d0a;
+    font-size: 20px;
+}
+
+/* ----- Paragraph ----- */
+p {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+/* ----- Navigation menu ----- */
+table.nav a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+table.nav a:hover {
+    color: #ffff99;
+}
+
+/* ----- Gallery photos ----- */
+img.photo {
+    border: 3px solid #3a6e0c;
+}
+img.photo:hover {
+    border: 3px solid #e0a000;
+}
+
+/* ----- Read More button ----- */
+table.button a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ----- Contact form ----- */
+input, textarea {
+    border: 1px solid #3a6e0c;
+}
+input.send {
+    background-color: #3a6e0c;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* ----- Footer (light green background, dark green text) ----- */
+table.footer td {
+    background-color: #dcebc8;
+}
+table.footer font {
+    color: #1f4503;
+}
+table.footer a {
+    color: #2f5d0a;
+    font-weight: bold;
+    text-decoration: underline;
+}
+table.footer a:hover {
+    color: #e0a000;
+}
